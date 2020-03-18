@@ -1,5 +1,5 @@
 # Slot Machine
-#### Design functional in browser slot machine. Use inputs bets between 5 and 50 credits. If three reels match, the return is doubled. 
+#### Project Scope: Design functional in browser slot machine. Use inputs bets between 5 and 50 credits. If three reels match, the return is doubled. 
 #### View here: https://svdev-slot.netlify.com
 ![](slotMachine.png)
 
