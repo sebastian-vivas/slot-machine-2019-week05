@@ -1,24 +1,13 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine
+#### Project Scope: Design functional in browser slot machine. Use inputs bets between 5 and 50 credits. If three reels match, the return is doubled. 
+#### View here: https://svdev-slot.netlify.com
+![](slotMachine.png)
 
-### Goal: Build a Simple Slot Machine
+# How it was made:
+#### HTML5, CSS3, Javascript E6
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+# Optimizations:
+#### When the player inputs their desired value of credits, the slots are played to potentially double the amount of credits played. 
 
-### How to submit your code for review:
-
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned: 
+#### Math.floor() and Math.random() were essential to create the algorithms for the reels. I declared a let variable with the players initial amount to begin at 1000 and for every instance where the three reels match, a function runs in which the bet amount is multiplied by two and added to the current amount of credits remaining.   
